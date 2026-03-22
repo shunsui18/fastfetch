@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shunsui18/yozakura/refs/heads/main/resources/icons/icon-transparent-animated.svg" alt="Yozakura" width="100"/>
+<img src="https://raw.githubusercontent.com/shunsui18/yozakura/refs/heads/main/resources/icons/icon-transparent-animated.svg" alt="Yozakura" width="150"/>
 
 # 夜桜 Yozakura — fastfetch Config
 
