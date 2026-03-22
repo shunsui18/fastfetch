@@ -1,0 +1,163 @@
+//    ░█▀▀░█▀█░█▀▀░▀█▀░█▀▀░█▀▀░▀█▀░█▀▀░█░█
+//    ░█▀▀░█▀█░▀▀█░░█░░█▀▀░█▀▀░░█░░█░░░█▀█
+//    ░▀░░░▀░▀░▀▀▀░░▀░░▀░░░▀▀▀░░▀░░▀▀▀░▀░▀
+// 
+//    ░█▀▀░█▀█░█▀█░█▀▀░▀█▀░█▀▀            
+//    ░█░░░█░█░█░█░█▀▀░░█░░█░█            
+//    ░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀                   
+//------------------------------------------
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+		"logo": {
+		"type": "kitty-icat",
+		"source": "/home/anustup_dutta/.config/fastfetch/logos/yozakura-yoru-small.gif",
+		"width": 20,
+		"padding": {
+			"top": 8,
+			"left": 3
+		}
+	},
+	"display": {
+		"separator": " "
+	},
+	"modules": [
+		{
+			"key": "\n",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}╭──────────────────╮",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}│ {#31} user           {#39}│",
+			"type": "title",
+			"format": "{1}"
+		},
+		{
+			"key": "{#39}│ {#32}󰇅 host           {#39}│",
+			"type": "title",
+			"format": "{2}"
+		},
+		{
+			"key": "{#39}├─── ──── ─── ── ─ ┤",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}│ {#33}󰟾 distro         {#39}│",
+			"type": "os",
+			"format": "{3}"
+		},
+		{
+			"key": "{#39}│ {#34} kernel         {#39}│",
+			"type": "kernel",
+			"format": "{1} {2}"
+		},
+		{
+			"key": "{#39}│ {#35} shell          {#39}│",
+			"type": "shell",
+			"format": "{6}"
+		},
+		{
+			"key": "{#39}│ {#36}󰅐 uptime         {#39}│",
+			"type": "uptime",
+			"format": "{2} Hrs {3} Mins"
+		},
+		{
+			"key": "{#39}├─── ──── ─── ── ─ ┤",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}│ {#31} wm             {#39}│",
+			"type": "wm",
+			"format": "{1}"
+		},
+		{
+			"key": "{#39}│ {#32}󰷛 lm             {#39}│",
+			"type": "lm",
+			"format": "{1}"
+		},
+		{
+			"key": "{#39}│ {#33} qt             {#39}│",
+			"type": "theme",
+			"format": "{~0,-5}"
+		},
+		{
+			"key": "{#39}│ {#34} gtk            {#39}│",
+			"type": "theme",
+			"format": "{2~,-11}"
+		},
+		{
+			"key": "{#39}│ {#35} qt icons       {#39}│",
+			"type": "icons",
+			"format": "{~0,-5}"
+		},
+		{
+			"key": "{#39}│ {#36}󰆧 gtk icons      {#39}│",
+			"type": "icons",
+			"format": "{2~0,-11}"
+		},
+		{
+			"key": "{#39}│ {#31}󰛖 font           {#39}│",
+			"type": "font",
+			"format": "{~0,-16}"
+		},
+		{
+			"key": "{#39}│ {#32} terminal       {#39}│",
+			"type": "terminal",
+			"format": "{5}"
+		},
+		{
+			"key": "{#39}├─── ──── ─── ── ─ ┤",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}│ {#33} cpu            {#39}│",
+			"type": "cpu",
+			"format": "{1}"
+		},
+		{
+			"key": "{#39}│ {#34}󰾲 gpu            {#39}│",
+			"type": "gpu",
+			"format": "{2~,-4}"
+		},
+		{
+			"key": "{#39}│ {#35}󱄄 display        {#39}│",
+			"type": "display",
+			"format": "{6"
+		},
+		{
+			"key": "{#39}├─── ──── ─── ── ─ ┤",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}│ {#36}󰉉 disk           {#39}│",
+			"type": "disk",
+			"folders": "/",
+			"format": "{1} ({3})"
+		},
+		{
+			"key": "{#39}│ {#31} memory         {#39}│",
+			"type": "memory",
+			"format": "{1} ({3})"
+		},
+		{
+			"key": "{#39}│ {#32}󰩟 network        {#39}│",
+			"type": "localip",
+			"format": "{1}"
+		},
+		{
+			"key": "{#39}├─── ──── ─── ── ─ ┤",
+			"type": "custom"
+		},
+		{
+			"key": "{#39}│ {#39} colors         {#39}│ 󰮯 ",
+			"type": "colors",
+			"symbol": "circle"
+		},
+		{
+			"key": "{#39}╰──────────────────╯",
+			"type": "custom"
+		},
+	],
+}
