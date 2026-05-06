@@ -37,7 +37,7 @@ A handcrafted [fastfetch](https://github.com/fastfetch-cli/fastfetch) configurat
 ### One-liner
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/fastfetch/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/yozakura-fastfetch/main/install.sh)
 ```
 
 The installer will walk you through shell integration and Kitty Terminal setup:
@@ -73,7 +73,7 @@ If you prefer to clone and run locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/shunsui18/fastfetch.git && cd fastfetch
+git clone https://github.com/shunsui18/yozakura-fastfetch.git && cd yozakura-fastfetch
 
 # 2. Run the installer
 ./install.sh
@@ -105,7 +105,7 @@ It is installed to `~/.config/fastfetch/scripts/` and optionally appended after 
 ## ✦ File Structure
 
 ```
-fastfetch/
+yozakura-fastfetch/
 ├── assets/
 │   ├── fastfetch-preview-1.png
 │   └── fastfetch-preview-2.gif
